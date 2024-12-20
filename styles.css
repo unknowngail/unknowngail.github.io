@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     padding: 20px;
 }
-<style>
+
 body {
     background-color: #17181a;
     background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-sky-blue-abstract-background-design-line-art-background-design-picture-image_1255170.jpg);
@@ -66,9 +66,7 @@ p {
     border: 2px solid #1e88e5;
     text-align: center;
 }
-</style>
-</head>
-<body>
+
 <div class="sidebar">
 <a href="#introduction">Introduction</a>
 <a href="#about">About Me</a>

@@ -5,106 +5,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #17181a;
+            background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-sky-blue-abstract-background-design-line-art-background-design-picture-image_1255170.jpg);
+            color: black;
+            line-height: 1.6;
+            padding: 20px;
+            display: flex;
+        }
 
+        .sidebar {
+            width: 20%;
+            background-color: #4f8bb3;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #1e88e5;
+            text-align: center;
+        }
+
+        .sidebar a:hover {
+            background-color: #155a8a;
+        }
+
+        .content {
+            width: 75%;
+        }
+
+        h1, h2, h3 {
+            color: black;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        p {
+            color: black;
+        }
+
+        .box, .rectangle {
+            background-color: skyblue;
+            border: 2px solid #4f8bb3;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .rectangle {
+            border: 2px solid #1e88e5;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <img 
-            src="https://scontent.fmnl4-4.fna.fbcdn.net/v/t1.15752-9/462579132_596679289511921_1487632554931791491_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGiUHrhnS_c_Ouz7-Tx2vzbEkjaDqURexASSNoOpRF7EAJPRNiWJusMwjadMdf2jQTCZHEdnTO4GXpuwgiJISzl&_nc_ohc=eArXwlgbvrgQ7kNvgGKNMuw&_nc_zt=23&_nc_ht=scontent.fmnl4-4.fna&oh=03_Q7cD1QFaozemfzjFJlxGixKNSzRnL6RivVvU7Vp9y5vj45vGZQ&oe=6780E5FA" 
-            alt="My Profile Picture" 
-            width="200" 
-            style="border: 3px solid skyblue; border-radius: 50%;">
-    </center>
-    
-    <h1>Abegail Patinia</h1>
-    <h2>Bachelor of Science in Information Technology</h2>
-    <hr>
-
-    <h2>Introduction</h2>
-    <p>I am Abegail Patinia, born on March 10, 2006, 18 years old, and a resident of St. Labugon, Barangay 1, Ilog, Negros Occidental. I am currently a first-year student pursuing a Bachelor of Science in Information Technology at Fellowship Baptist College.</p>
-    <hr>
-
-    <h2>About Me</h2>
-    <p>I am currently taking Bachelor of Science in Information Technology in order for me to learn new knowledge and widen my interest in this field. I believe that taking this program will give me a better opportunity in job seeking in the future.</p>
-    <hr>
-
-    <h1>Education and Academic Achievements</h1>
-
-    <h3><u>Elementary School</u></h3>
-    <p>
-       Ilog Elementary School<br>
-       M.H Del Pilar Street, Ilog, Negros Occidental<br>
-       <em>2012-2018</em>
-    </p>
-
-    <h3><u>High School</u></h3>
-    <p>
-       Ilog National High School<br>
-       Barangay Embarcadero, Ilog, Negros Occidental<br>
-       <em>2018-2022</em>
-    </p>
-
-    <h3><u>Senior High School</u></h3>
-    <p>
-       Ilog National High School - Humanities and Social Sciences<br>
-       Barangay Embarcadero, Ilog, Negros Occidental<br>
-       <em>2022-2024</em><br>
-       <em>With Honors</em>
-    </p>
-
-    <h3><u>College</u></h3>
-    <p>
-       Fellowship Baptist College Kabankalan Inc.<br>
-       Rizal Street, Barangay 9, Kabankalan, Negros Occidental<br>
-       Bachelor of Science in Information Technology<br>
-       <em>2024-Present</em>
-    </p>
-    <hr>
-
-    <div class="box">
-        <h2>Skills</h2>
-        <ul>
-            <li>Good Listener</li>
-            <li>Attentive</li>
-        </ul>
+    <div class="sidebar">
+        <a href="#introduction">Introduction</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#activities">Activities</a>
+        <a href="#contact">Contact</a>
+        <a href="#verse">Favorite Verse</a>
     </div>
 
-    <div class="box">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Watching Kdrama</li>
-            <li>Playing Football</li>
-            <li>Playing Volleyball</li>
-            <li>Listening to Music</li>
-        </ul>
-    </div>
-    <hr>
+    <div class="content">
+        <center>
+            <img 
+                src="https://scontent.fmnl4-4.fna.fbcdn.net/v/t1.15752-9/462579132_596679289511921_1487632554931791491_n.jpg" 
+                alt="My Profile Picture" 
+                width="200" 
+                style="border: 3px solid skyblue; border-radius: 50%;">
+        </center>
+        
+        <h1>Abegail Patinia</h1>
+        <h2>Bachelor of Science in Information Technology</h2>
+        <hr>
 
-    <div class="box">
-        <h2>Extracurricular Activities</h2>
-        <ul>
-            <li>Mathematics Club <em>(Secretary - Grade 12)</em></li>
-            <li>English Club <em>(Vice President - Grade 11)</em></li>
-        </ul>
-    </div>
-    <hr>
+        <h2 id="introduction">Introduction</h2>
+        <div class="box">
+            <p>I am Abegail Patinia, born on March 10, 2006, 18 years old, and a resident of St. Labugon, Barangay 1, Ilog, Negros Occidental. I am currently a first-year student pursuing a Bachelor of Science in Information Technology at Fellowship Baptist College.</p>
+        </div>
+        <hr>
 
-    <div class="rectangle">
-        <h2>Contact Information</h2>
-        <h3>Facebook: <em>Abegail Patinia</em></h3>
-        <h3>Instagram: <em>un_known_gail</em></h3>
-        <h3>Phone Number: <em>+639950595430</em></h3>
-        <h3>Email: <em>patinia_abegail@fbc.ph.education</em></h3>
-    </div>
-    <hr>
+        <h2 id="about">About Me</h2>
+        <div class="box">
+            <p>I am currently taking Bachelor of Science in Information Technology in order for me to learn new knowledge and widen my interest in this field. I believe that taking this program will give me a better opportunity in job seeking in the future.</p>
+        </div>
+        <hr>
 
-    <div class="rectangle">
-        <h1>Favorite Verse</h1>
-        <p>Thy word is a lamp unto my feet and a light unto my path.</p>
-        <h3><em>Psalms 119:103</em></h3>
-    </div>
-    <hr>
+        <h2 id="education">Education and Academic Achievements</h2>
+        <div class="box">
+            <h3><u>Elementary School</u></h3>
+            <p>Ilog Elementary School<br>M.H Del Pilar Street, Ilog, Negros Occidental<br><em>2012-2018</em></p>
 
-    <h1>Thank you!</h1>
+            <h3><u>High School</u></h3>
+            <p>Ilog National High School<br>Barangay Embarcadero, Ilog, Negros Occidental<br><em>2018-2022</em></p>
+
+            <h3><u>Senior High School</u></h3>
+            <p>Ilog National High School - Humanities and Social Sciences<br>Barangay Embarcadero, Ilog, Negros Occidental<br><em>2022-2024</em><br><em>With Honors</em></p>
+
+            <h3><u>College</u></h3>
+            <p>Fellowship Baptist College Kabankalan Inc.<br>Rizal Street, Barangay 9, Kabankalan, Negros Occidental<br>Bachelor of Science in Information Technology<br><em>2024-Present</em></p>
+        </div>
+        <hr>
+
+        <h2 id="skills">Skills</h2>
+        <div class="box">
+            <ul>
+                <li>Good Listener</li>
+                <li>Attentive</li>
+            </ul>
+        </div>
+
+        <h2 id="hobbies">Hobbies</h2>
+        <div class="box">
+            <ul>
+                <li>Watching Kdrama</li>
+                <li>Playing Football</li>
+                <li>Playing Volleyball</li>
+                <li>Listening to Music</li>
+            </ul>
+        </div>
+        <hr>
+
+        <h2 id="activities">Extracurricular Activities</h2>
+        <div class="box">
+            <ul>
+                <li>Mathematics Club <em>(Secretary - Grade 12)</em></li>
+                <li>English Club <em>(Vice President - Grade 11)</em></li>
+            </ul>
+        </div>
+        <hr>
+
+        <h2 id="contact">Contact Information</h2>
+        <div class="rectangle">
+            <h3>Facebook: <em>Abegail Patinia</em></h3>
+            <h3>Instagram: <em>un_known_gail</em></h3>
+            <h3>Phone Number: <em>+639950595430</em></h3>
+            <h3>Email: <em>patinia_abegail@fbc.ph.education</em></h3>
+        </div>
+        <hr>
+
+        <h2 id="verse">Favorite Verse</h2>
+        <div class="rectangle">
+            <p>Thy word is a lamp unto my feet and a light unto my path.</p>
+            <h3><em>Psalms 119:103</em></h3>
+        </div>
+        <hr>
+
+        <h1>Thank you!</h1>
+    </div>
 </body>
 </html>
